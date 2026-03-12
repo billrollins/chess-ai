@@ -11,19 +11,17 @@ Build the `.ai/` folder into a reliable, single-source-of-truth system that any 
 | 1 | Consolidate metadata into single `context_base.md` | done | Merged .ai/README.md, context_extended_toc.md, plans/README.md into one entry point |
 | 2 | Delete placeholder plans and redundant files | done | Removed plan_a/b/c, redundant READMEs |
 | 3 | Audit `context_extended/` files for accuracy | on deck | Compare each file against current codebase; fix stale info |
-| 4 | Refine protocols | backlog | Evaluate if commit/review/update_context are sufficient; add new protocols as needed |
-| 5 | End-to-end validation | backlog | Start a fresh AI chat, point it at `context_base.md`, confirm it can orient and work effectively |
+| 4 | Refine protocols | done | Merged review+update, added version_bump + start_session, moved commit to bat script |
+| 5 | End-to-end validation | on deck | Start a fresh AI chat, point it at `context_base.md`, confirm it can orient and work effectively |
 
 ## Handoff
 
-**Current batch:** Steps 1-2
-- Consolidate and clean up — done
-- Commit and push
+**Completed:** Steps 1, 2, 4
+- Consolidated context_base.md as single entry point
+- Deleted placeholder plans and redundant files
+- Overhauled protocols: merged review+update, added version_bump + start_session, moved commit to scripts/commit.bat
+- Moved VERSION and CHANGELOG.md to project root
 
-**Next batch:** Step 3
-- Read each `context_extended/` file alongside the actual source code
-- Fix any stale descriptions, missing features, or incorrect paths
-
-**Then:** Steps 4-5
-- Evaluate protocol coverage
-- Test the system with a fresh AI session
+**Next batch:** Steps 3, 5
+- Audit each `context_extended/` file against current source code
+- Test the system end-to-end with a fresh AI session

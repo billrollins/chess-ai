@@ -6,7 +6,7 @@ Overview of all plans and current focus.
 
 | Plan | Active Steps | Status |
 |------|--------------|--------|
-| AI Folder | Steps 1-2 done; step 3 on deck | in progress |
+| AI Folder | Steps 1, 2, 4 done; steps 3, 5 on deck | in progress |
 
 ## Plans
 
@@ -16,6 +16,6 @@ Overview of all plans and current focus.
 
 ## Next Actions
 
-1. Commit steps 1-2 (consolidation and cleanup)
+1. Commit the protocols overhaul and push
 2. Begin step 3: audit `context_extended/` files for accuracy against current codebase
-3. See plan file for steps 4-5 (protocols, end-to-end validation)
+3. Step 5: end-to-end validation with a fresh AI session

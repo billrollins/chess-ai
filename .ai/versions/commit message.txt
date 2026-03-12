@@ -1,1 +1,0 @@
-Consolidate .ai folder into single-source-of-truth context system

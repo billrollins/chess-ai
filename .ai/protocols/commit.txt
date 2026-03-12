@@ -1,8 +1,0 @@
-Perform a git commit:
-
-1. Run: git add .
-2. Read .ai/versions/commit message.txt for the commit message
-3. Run: git commit -m "<message from file>"
-4. If commit message.txt is empty or placeholder, use a descriptive message based on recent changes
-
-Do not push. Only add and commit.
