@@ -1,1 +1,1 @@
-Overhaul .ai system: consolidate context, restructure versioning, new protocols
+Bump version to 0.2.0
