@@ -1,0 +1,39 @@
+# Dependencies
+node_modules/
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+venv/
+.venv/
+env/
+
+# Build / IDE
+dist/
+build/
+*.egg-info/
+.eggs/
+.vscode/
+.idea/
+
+# Storage (local data)
+games/*
+!games/.gitkeep
+engines/*
+!engines/.gitkeep
+*.db
+*.sqlite
+*.sqlite3
+
+# Env
+.env
+.env.local
+.env.*.local
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db

@@ -1,0 +1,7 @@
+Review the codebase (or specified files) for:
+1. Correctness — logic, edge cases, error handling
+2. Consistency — naming, patterns, style
+3. Security — input validation, injection risks
+4. Performance — unnecessary work, leaks
+
+Report findings. Suggest fixes only where important. Do not make edits unless explicitly asked.
